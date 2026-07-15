@@ -1,0 +1,13 @@
+{
+  "name": "healthscope-ai",
+  "private": true,
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run start:dev",
+    "build": "npm --prefix apps/api run build",
+    "start:api": "npm --prefix apps/api run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
